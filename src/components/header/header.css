@@ -460,3 +460,9 @@ a {
     padding-top: 16px;
     border-top: 1px solid rgb(63, 63, 63);
 }
+
+.div {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}

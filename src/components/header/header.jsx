@@ -9,6 +9,10 @@ import before3 from '../../assets/img/device-mobile.png'
 import img1 from '../../assets/img/imagen_deportada_interactiva.png'
 import img2 from '../../assets/img/imagen-deportada_interactiva.png'
 import img3 from '../../assets/img/imagendeportada_interactiva.png'
+import logo1 from '../../assets/img/Behance.png'
+import logo2 from '../../assets/img/Linkend.png'
+import logo3 from '../../assets/img/Figma.png'
+
 
 
 function Header() {
@@ -135,6 +139,17 @@ function Header() {
 
                             <li className="footer__item">
                                 <a href="#" className="footer__item-link--active">Social</a>
+                                <div className="div">
+                                <a href="#">
+                                    <img src={logo1} alt="" />
+                                </a>
+                                <a href="#">
+                                    <img src={logo2} alt="" />
+                                </a>
+                                <a href="#">
+                                    <img src={logo3} alt="" />
+                                </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
