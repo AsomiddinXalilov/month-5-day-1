@@ -265,6 +265,9 @@ a {
     color: #F9B53A;
     border: 1px solid #F9B53A;
 }
+.wrapper__img {
+    margin-left: 10px;
+}
 
 .blog {
     width: 1122px;
@@ -353,4 +356,107 @@ a {
 
 .blog__down--img {
     margin-left: 10px;
+}
+
+.foot {
+    width: 1155px;
+    margin: 0 auto;
+    margin-top: 144px;
+    text-align: center;
+}
+
+.foot__heading {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #F9B53A;
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+}
+
+.foot__img {
+    margin-bottom: 60px;
+}
+
+.foot__btn {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;  
+    padding: 16px 75px;
+    border-radius: 8px;
+    background-color: #F9B53A;
+    color: #fff;
+    border: 1px solid #F9B53A;
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.foot__btn:hover {
+    background-color: #ffa600;
+}
+
+.foot__down--img {
+    margin-left: 10px;
+}
+
+.footer {
+    width: 1156px;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+.footer__container {
+    width: 792px;
+    margin-right: auto;
+    display: flex;
+}
+
+.footer__link {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    display: block;
+}
+
+.footer__list {
+    width: 595px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__item-link, .footer__item-link--active {
+    margin-bottom: 24px;
+}
+
+.footer__item-link--active {
+    color: #F9B53A;
+}
+
+.footer__item-link {
+    color: #fff;
+}
+
+.footerfoot__text {
+    color: #fff;
+    padding-top: 16px;
+    border-top: 1px solid rgb(63, 63, 63);
 }

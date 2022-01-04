@@ -1,8 +1,14 @@
 import './header.css'
 import bgImg from '../../assets/img/banner.png'
 import download from '../../assets/img/download.png'
+import right from '../../assets/img/arrow-right.png'
 import imagePersolnal from '../../assets/img/Imagenpersonal.png'
 import before from '../../assets/img/user-add.png'
+import before2 from '../../assets/img/template.png'
+import before3 from '../../assets/img/device-mobile.png'
+import img1 from '../../assets/img/imagen_deportada_interactiva.png'
+import img2 from '../../assets/img/imagen-deportada_interactiva.png'
+import img3 from '../../assets/img/imagendeportada_interactiva.png'
 
 
 function Header() {
@@ -52,7 +58,7 @@ function Header() {
                             </p>
 
                             <button className="wrapper__btn">
-                            Mas acerca de mi <img src={download} alt="logo" className="wrapper__img" />
+                            Mas acerca de mi <img src={right} alt="logo" className="wrapper__img" />
                             </button>
                         </div>
                     </div>
@@ -62,7 +68,7 @@ function Header() {
                     <h2 className="blog__heading">Mis habilidades</h2>
                     <ul className="blog__list">
                         <li className="blog__list--item">
-                            <img src={before} alt="add" className="blog__img-list" />
+                            <img src={before3} alt="add" className="blog__img-list" />
                             <h3 className="blog__head">
                                 Responsive design
                             </h3>
@@ -72,29 +78,72 @@ function Header() {
                         </li>
 
                         <li className="blog__list--item">
-                            <img src={before} alt="add" className="blog__img-list" />
+                            <img src={before2} alt="add" className="blog__img-list" />
                             <h3 className="blog__head">
-                                Responsive design
+                            Sistema de diseño
                             </h3>
                             <p className="blog__text">
-                                Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca   de como implementarlos de manera efectiva en cualquier proyecto.
+                            Tengo manejo de sistemas de diseño, lo cual permite agilidad en el proceso de diseño acortando los tiempos en la creación de las interfaces dentro del proyecto.
                             </p>
                         </li>
 
                         <li className="blog__list--item">
                             <img src={before} alt="add" className="blog__img-list" />
                             <h3 className="blog__head">
-                                Responsive design
+                            Cooworking
                             </h3>
                             <p className="blog__text">
-                                Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca   de como implementarlos de manera efectiva en cualquier proyecto.
+                            Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.
                             </p>
                         </li>
                     </ul>
                     <button class="blog__btn">Ver más de mis skills
-                    <img src={download} alt="next-img" class="blog__down--img" />
+                    <img src={right} alt="next-img" class="blog__down--img" />
                     </button>
                 </div>
+
+                <div className="foot">
+                    <h2 className="foot__heading">
+                        Algunos de mis proyectos
+                    </h2>
+                    <img src={img1} alt="img" className="foot__img" />
+                    <img src={img2} alt="img" className="foot__img" />
+                    <img src={img3} alt="img" className="foot__img" />
+
+                    <button class="foot__btn">Ver más de mis skills
+                    <img src={right} alt="next-img" class="foot__down--img" />
+                    </button>
+                </div>
+
+                <div className="footer">
+                    <div className="footer__container">
+                        <div><a href="#" className="footer__link">
+                        Yuxin
+                        </a></div>
+
+                        <ul className="footer__list">
+                            <li className="footer__item">
+                                <a href="#" className="footer__item-link--active">Inicio</a>
+                                <a href="#" className="footer__item-link">Acerca de mi</a>
+                                <a href="#" className="footer__item-link">Proyectos</a>
+                            </li>
+                            <li className="footer__item">
+                                <a href="#" className="footer__item-link--active">Contáctame</a>
+                                <a href="#" className="footer__item-link">Correo</a>
+                                <a href="#" className="footer__item-link">LinkedIn</a>
+                            </li>
+
+                            <li className="footer__item">
+                                <a href="#" className="footer__item-link--active">Social</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p className="footerfoot__text">
+                    © 2021 Yuxin
+                    </p>
+                </div>
+
             </section>
         </div>
     )
